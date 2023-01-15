@@ -28,6 +28,5 @@ pins.setPull(DigitalPin.P15, PinPullMode.PullDown)
 pins.setPull(DigitalPin.P16, PinPullMode.PullDown)
 basic.showIcon(IconNames.Yes)
 basic.forever(function () {
-    basic.showString("" + (toHexDigit(pins.digitalReadPin(DigitalPin.P13), pins.digitalReadPin(DigitalPin.P14), pins.digitalReadPin(DigitalPin.P15), pins.digitalReadPin(DigitalPin.P16))))
-    basic.pause(100)
+    basic.showString("" + toHexDigit(pins.digitalReadPin(DigitalPin.P13), pins.digitalReadPin(DigitalPin.P14), pins.digitalReadPin(DigitalPin.P15), pins.digitalReadPin(DigitalPin.P16)), 50)
 })

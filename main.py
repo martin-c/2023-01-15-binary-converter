@@ -30,6 +30,5 @@ def on_forever():
     basic.show_string("" + (toHexDigit(pins.digital_read_pin(DigitalPin.P13),
         pins.digital_read_pin(DigitalPin.P14),
         pins.digital_read_pin(DigitalPin.P15),
-        pins.digital_read_pin(DigitalPin.P16))))
-    basic.pause(100)
+        pins.digital_read_pin(DigitalPin.P16))), 50)
 basic.forever(on_forever)
