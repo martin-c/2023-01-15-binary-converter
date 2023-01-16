@@ -1,6 +1,8 @@
 
 > Open this page at [https://martin-c.github.io/2023-01-15-binary-converter/](https://martin-c.github.io/2023-01-15-binary-converter/)
 
+<img src="circuit.jpg" width="600" />
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
